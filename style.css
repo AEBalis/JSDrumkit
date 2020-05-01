@@ -1,0 +1,66 @@
+body{
+  margin:0;
+  padding:0;
+}
+
+#wrapper{
+  height:100vh;
+  width:100%;
+  background-color: rgb(43, 43, 85);
+}
+
+#header{
+  flex-basis:100vh;
+  font-size:132px;
+  color:white;
+  text-align:center;
+  font-family: 'Marck Script', cursive;
+}
+
+#omi{
+  height:350px;
+  width:350px;
+  border:3px solid gray;
+  border-radius:5px;
+  margin:50px auto;
+  position:relative;
+}
+
+#omi-head{
+ position:absolute; 
+}
+
+#omi-mouth{
+  position:absolute;
+  z-index:10;
+}
+
+#soundboard{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:150px;
+  width:150px;
+  border: 3px solid gray; 
+  border-radius:5px;
+  font-size:36px;
+  font-family:arial, sans-serif;
+  color:rgb(204, 204, 138);
+  margin:25px;
+  text-align:left;
+  
+}
+
+.btn:hover{
+  transform:scale(1.1);
+  border:3px solid yellow;
+  cursor:pointer;
+  
+}
+
